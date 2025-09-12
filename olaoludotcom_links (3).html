@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Things OLAOLUDOTCOM</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@tailwindcss/forms"></script>
+  <style>
+    [data-animate] {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.7s ease-in-out;
+    }
+    [data-animate].active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-yellow-400 via-red-400 to-pink-500 text-white py-20 shadow-lg" data-animate>
+    <div class="max-w-4xl mx-auto text-center px-6">
+      <h1 class="text-5xl font-extrabold drop-shadow-lg">All Things OLAOLUDOTCOM</h1>
+      <p class="mt-4 text-lg text-white/90">Explore official links, merchandise, and social platforms of OLAOLUDOTCOM</p>
+      <a href="#about" class="mt-6 inline-block bg-white text-gray-900 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-100 transition transform hover:-translate-y-1">Get Started</a>
+    </div>
+    <div class="absolute inset-0 bg-black/30"></div>
+  </section>
+
+  <nav class="bg-gray-900 py-3 flex justify-center space-x-6 sticky top-0 z-50 shadow" data-animate>
+    <a href="#about" class="text-white hover:text-yellow-400 font-semibold">About</a>
+    <a href="#shop" class="text-white hover:text-yellow-400 font-semibold">Shop</a>
+    <a href="#social" class="text-white hover:text-yellow-400 font-semibold">Social</a>
+    <a href="#contact" class="text-white hover:text-yellow-400 font-semibold">Contact</a>
+    <a href="#legal" class="text-white hover:text-yellow-400 font-semibold">Legal</a>
+  </nav>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 grid gap-8">
+    <section id="about" class="bg-white p-6 rounded-2xl shadow-md" data-animate>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">About OLAOLUDOTCOM</h2>
+      <p>OLAOLUDOTCOM is a creative entity with presence across multiple platforms, offering merchandise, content, and social engagement.</p>
+    </section>
+
+    <section id="shop" class="bg-white p-6 rounded-2xl shadow-md" data-animate>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Shop &amp; Merch</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <a href="https://olaoludotcom-shop.fourthwall.com/en-usd/" target="_blank" class="block p-4 bg-yellow-100 hover:bg-yellow-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">
+          <h3 class="font-semibold">Official Shop</h3>
+          <p class="text-sm text-gray-600">Browse official OLAOLUDOTCOM merchandise.</p>
+        </a>
+        <a href="https://website.beacons.ai/olaoludotcom/websites/live/d02a917b-32ee-423a-9b1e-e0884adae70e?=" target="_blank" class="block p-4 bg-yellow-100 hover:bg-yellow-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">
+          <h3 class="font-semibold">Beacons Storefront</h3>
+          <p class="text-sm text-gray-600">Alternative store and products.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="social" class="bg-white p-6 rounded-2xl shadow-md" data-animate>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Social Media</h2>
+      <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <a href="https://www.instagram.com/olaoludotcom/?hl=en" target="_blank" class="block p-4 bg-blue-100 hover:bg-blue-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">Instagram</a>
+        <a href="https://www.facebook.com/olaoludotcom/" target="_blank" class="block p-4 bg-blue-100 hover:bg-blue-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">Facebook</a>
+        <a href="https://twitter.com/sofatoyedotcom" target="_blank" class="block p-4 bg-blue-100 hover:bg-blue-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">Twitter</a>
+        <a href="https://www.youtube.com/channel/UC2d-P58PjuO9VaItFWY5BQQ" target="_blank" class="block p-4 bg-blue-100 hover:bg-blue-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">YouTube</a>
+        <a href="https://uk.linkedin.com/company/olaoludotcom" target="_blank" class="block p-4 bg-blue-100 hover:bg-blue-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">LinkedIn</a>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-white p-6 rounded-2xl shadow-md" data-animate>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Contact &amp; Info</h2>
+      <a href="https://sites.google.com/olaolu.com/olaolu-dotcom/home?=" target="_blank" class="block p-4 bg-green-100 hover:bg-green-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">Google Sites Contact Page</a>
+    </section>
+
+    <section id="legal" class="bg-white p-6 rounded-2xl shadow-md" data-animate>
+      <h2 class="text-2xl font-bold mb-4 border-b pb-2">Legal</h2>
+      <a href="https://olaoludotcom-shop.fourthwall.com/en-sek/pages/privacy-policy" target="_blank" class="block p-4 bg-red-100 hover:bg-red-200 rounded-xl shadow transition transform hover:-translate-y-1 hover:shadow-lg">Privacy Policy</a>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white text-center py-6 mt-10" data-animate>
+    <p>&copy; 2025 OLAOLUDOTCOM. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const animateElements = document.querySelectorAll('[data-animate]');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    animateElements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
