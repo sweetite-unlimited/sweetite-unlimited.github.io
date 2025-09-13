@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweetite Unlimited</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family: 'Montserrat', sans-serif; color: #333; background: #fff; }
+    .hero {
+      background: linear-gradient(120deg, #ff6bb3, #ff9f68, #ffd86b);
+      color: white; text-align: center; padding: 100px 20px;
+    }
+    .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+    .hero p { font-size: 1.3rem; margin-bottom: 30px; }
+    .btn {
+      display: inline-block; margin: 10px; padding: 12px 25px;
+      background: white; color: #ff6bb3; border-radius: 30px;
+      font-weight: bold; text-decoration: none; transition: transform .2s;
+    }
+    .btn:hover { transform: scale(1.1); background: #fff4f9; }
+    .about, .connect, .previews { padding: 60px 20px; max-width: 900px; margin: 0 auto; text-align: center; }
+    .about h2, .connect h2, .previews h2 { color: #ff6bb3; margin-bottom: 20px; }
+    .social-links a {
+      display: inline-block; margin: 10px; font-size: 20px;
+      padding: 10px 20px; border-radius: 25px;
+      background: linear-gradient(45deg, #ff6bb3, #ffd86b);
+      color: white; text-decoration: none; transition: transform .2s;
+    }
+    .social-links a:hover { transform: scale(1.15); }
+    footer {
+      background: #ff6bb3; color: white; text-align: center;
+      padding: 20px; font-size: 0.9rem;
+    }
+    iframe { max-width: 100%; border-radius: 12px; margin: 15px 0; }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Sweetite Unlimited</h1>
+    <p>Where Love, Colours & Creativity Meet 💕✨</p>
+    <a class="btn" href="https://www.youtube.com/channel/UCBf6oKajixYcQrlKJ5QHfug" target="_blank">💖 Subscribe on YouTube</a>
+    <a class="btn" href="https://www.tiktok.com/@sweetiteunlimited" target="_blank">🌟 Follow on TikTok</a>
+    <a class="btn" href="https://www.instagram.com/sweetiteunlimited/" target="_blank">📸 Instagram</a>
+    <a class="btn" href="https://www.facebook.com/people/Sweetite-Unlimited/61580614864340/" target="_blank">👍 Facebook</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m <b>Sweetite Unlimited</b>! 💕 I create with love, colour, and joy — videos that brighten your day, moments that inspire, and smiles you can carry with you. 🌸</p>
+    <p>Let’s build a community full of laughter, kindness, and creativity. When you like, comment, and share — you’re spreading love. 💌</p>
+  </section>
+
+  <!-- Spread the Love Section -->
+  <section class="connect">
+    <h2>Spread the Love 💖</h2>
+    <p>Want to connect? It’s simple — show love on your favourite platforms:</p>
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@sweetiteunlimited" target="_blank">🎵 TikTok</a>
+      <a href="https://www.instagram.com/sweetiteunlimited/" target="_blank">📸 Instagram</a>
+      <a href="https://www.youtube.com/channel/UCBf6oKajixYcQrlKJ5QHfug" target="_blank">🎥 YouTube</a>
+      <a href="https://www.facebook.com/people/Sweetite-Unlimited/61580614864340/" target="_blank">👍 Facebook</a>
+    </div>
+    <p>💕 Leave a comment · 🌟 Drop a like · 🔔 Hit subscribe · 📲 Share the love!</p>
+  </section>
+
+  <!-- Live Previews -->
+  <section class="previews">
+    <h2>Latest Content ✨</h2>
+    
+    <!-- YouTube Embed (auto-updates with latest uploads) -->
+    <h3>🎥 YouTube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=UCBf6oKajixYcQrlKJ5QHfug"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <!-- TikTok Auto Feed (Tagembed widget) -->
+    <h3>🎵 TikTok</h3>
+    <div class="tiktok-feed">
+      <!-- Replace YOUR_WIDGET_ID with the code Tagembed gives you -->
+      <script src="https://widgets.tagembed.com/embed.min.js" data-widget-id="YOUR_WIDGET_ID"></script>
+    </div>
+
+    <!-- Instagram Auto Feed (SnapWidget example) -->
+    <h3>📸 Instagram</h3>
+    <iframe src="https://snapwidget.com/embed/YOUR_WIDGET_ID" 
+      class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" 
+      style="border:none; overflow:hidden; width:100%; height:500px">
+    </iframe>
+
+    <!-- Facebook Page Embed (auto-updates timeline) -->
+    <h3>👍 Facebook</h3>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" 
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0"></script>
+    <div class="fb-page" 
+      data-href="https://www.facebook.com/people/Sweetite-Unlimited/61580614864340/" 
+      data-tabs="timeline" 
+      data-width="500" 
+      data-height="" 
+      data-small-header="false" 
+      data-adapt-container-width="true" 
+      data-hide-cover="false" 
+      data-show-facepile="true">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with Love 💖 by Sweetite Unlimited © 2025</p>
+  </footer>
+</body>
+</html>
