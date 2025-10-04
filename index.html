@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweetite Unlimited</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background: #fff8f8;
+      overflow-x: hidden;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #ffd1dc, #ffe4b5, #c6f1d6);
+      color: #333;
+      text-align: center;
+      padding: 120px 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      animation: slideDown 1.5s ease;
+    }
+    .hero p {
+      font-size: 1.4rem;
+      margin-bottom: 40px;
+      animation: slideUp 1.5s ease;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      background: linear-gradient(45deg, #ff9aa2, #ffc3a0);
+      color: white;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+
+    /* Sections */
+    .about, .connect, .support {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .about h2, .connect h2, .support h2 {
+      color: #ff6b81;
+      margin-bottom: 20px;
+    }
+
+    /* Social Links */
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      font-size: 20px;
+      padding: 12px 25px;
+      border-radius: 25px;
+      background: linear-gradient(45deg, #ffb3c6, #ffd1a0);
+      color: white;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .social-links a:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Support Section */
+    .support {
+      background: linear-gradient(120deg, #ffe0e9, #fff2cc, #e0ffe7);
+      border-radius: 20px;
+      padding: 80px 30px;
+      margin: 60px auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .support h2 {
+      font-size: 2.2rem;
+      color: #ff477e;
+      margin-bottom: 20px;
+    }
+    .support p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #444;
+    }
+    .support-btn {
+      display: inline-block;
+      font-size: 1.2rem;
+      padding: 18px 40px;
+      background: linear-gradient(45deg, #ff85a2, #ffb347);
+      color: white;
+      border-radius: 35px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+      animation: pulse 2s infinite;
+    }
+    .support-btn:hover {
+      transform: translateY(-5px) scale(1.1);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Footer */
+    footer {
+      background: #ff9aa2;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95rem;
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Sweetite Unlimited</h1>
+    <p>Where Love, Colours & Creativity Meet 💕✨</p>
+    <a class="btn" href="https://www.youtube.com/channel/UCBf6oKajixYcQrlKJ5QHfug" target="_blank">💖 Subscribe on YouTube</a>
+    <a class="btn" href="https://www.tiktok.com/@sweetiteunlimited" target="_blank">🌟 Follow on TikTok</a>
+    <a class="btn" href="https://www.instagram.com/sweetiteunlimited/" target="_blank">📸 Instagram</a>
+    <a class="btn" href="https://www.facebook.com/people/Sweetite-Unlimited/61580614864340/" target="_blank">👍 Facebook</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m <b>Sweetite Unlimited</b>! 💕 I create with love, pastel colours, and joy — content that brightens your day, inspires creativity, and brings smiles. 🌸</p>
+    <p>Let’s build a community full of laughter, kindness, and positive vibes. When you like, comment, and share — you’re spreading love. 💌</p>
+  </section>
+
+  <!-- Spread the Love Section -->
+  <section class="connect">
+    <h2>Spread the Love 💖</h2>
+    <p>Connect with me on your favourite platforms:</p>
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@sweetiteunlimited" target="_blank">🎵 TikTok</a>
+      <a href="https://www.instagram.com/sweetiteunlimited/" target="_blank">📸 Instagram</a>
+      <a href="https://www.youtube.com/channel/UCBf6oKajixYcQrlKJ5QHfug" target="_blank">🎥 YouTube</a>
+      <a href="https://www.facebook.com/people/Sweetite-Unlimited/61580614864340/" target="_blank">👍 Facebook</a>
+    </div>
+    <p>💕 Leave a comment · 🌟 Drop a like · 🔔 Hit subscribe · 📲 Share the love!</p>
+  </section>
+
+  <!-- Support Section -->
+  <section class="support">
+    <h2>🌟 Support Sweetite Unlimited 🌟</h2>
+    <p>Your kindness keeps the creativity flowing 💕.  
+       If you love what I do and want to help me create more colourful, loving content,  
+       please consider supporting my journey. Every little bit makes a huge difference 🌸✨</p>
+    <a class="support-btn" href="https://sweetite-unlimited.lovable.app/" target="_blank">💖 Contribute & Spread Love 💖</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with Love 💖 by Sweetite Unlimited © 2025</p>
+  </footer>
+
+</body>
+</html>
